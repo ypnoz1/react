@@ -20,7 +20,9 @@ class Header extends Component {
             <div className='hd'>                
                 <div className='hd-mid'>
                     <div className='hd-logo'>
-                        <img src={logo} />
+                        <Link to={'/'}>
+                            <img src={logo} alt={'logo'}/>
+                        </Link>
                     </div>
                     <div className='hd-login'>
                         asda
